@@ -91,7 +91,7 @@ jobs:
     uses: skills/exercise-toolkit/.github/workflows/finish-exercise.yml@57ecd963a3e54e6b01a30ebab57d5202a7afca3f
     with:
       issue-url: ${{ needs.find_exercise.outputs.issue-url }}
-      update-readme-with-congratulations: false
+      update-readme-with-congratulations: true
 
   disable_workflow:
     name: Disable this workflow
